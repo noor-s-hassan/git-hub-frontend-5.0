@@ -4,7 +4,7 @@ import CKEditor from "@ckeditor/ckeditor5-react";
 import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
 import sanitizeHtml from "sanitize-html";
 
-const baseURL = process.env.REACT_APP_BASEURL || "http://localhost:5000";
+const baseURL = process.env.REACT_APP_BASEURL || "https://noor-website.herokuapp.com";
 
 class CreatePosts extends Component {
     constructor() {

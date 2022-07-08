@@ -24,7 +24,7 @@ class PostsList extends Component {
 
     componentDidMount() {
         axios
-            .get(`http://localhost:5000/server/posts/`)
+            .get(`https://noor-website.herokuapp.com/server/posts`)
             .then((response) => {
                 // The order of posts is reversed to display the posts in reverse chronological order
                 this.setState({ posts: response.data.reverse() });
